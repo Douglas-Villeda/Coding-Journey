@@ -1,0 +1,28 @@
+ /*Exercise 6c*/ p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .amount {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .currency {
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+  }
+
+  .rate1 {
+    color: rgb(24, 128, 56);
+    margin-bottom: 8px;
+  }
+
+  .hours {
+    color: rgb(100, 100, 100);
+  }
+
+  .rate2 {
+    color: rgb(235, 39, 39);
+  }

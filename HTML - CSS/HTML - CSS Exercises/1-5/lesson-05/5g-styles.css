@@ -1,0 +1,26 @@
+ /*Exercise 6c*/ p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .poster {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .time {
+    font-weight: normal;
+    color: rgb(100, 100, 100);
+  }
+
+  .body1 {
+    width: 600px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .tag {
+    color: rgb(29, 155, 240);
+  }
