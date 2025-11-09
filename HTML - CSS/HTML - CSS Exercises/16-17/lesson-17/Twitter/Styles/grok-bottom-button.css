@@ -1,0 +1,37 @@
+.grok-bottom-button-container {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.grok-bottom-button {
+  background-color: black;
+  border: none;
+  box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.grok-bottom-button-icon {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.grok-bottom-button:hover {
+  background-color: rgb(25, 25, 25);
+}
+
+@media (min-width: 1020px) {
+  .grok-bottom-button-container {
+    opacity: 1;
+  }
+}

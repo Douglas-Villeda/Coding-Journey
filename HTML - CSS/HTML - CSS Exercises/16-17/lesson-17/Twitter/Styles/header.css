@@ -1,0 +1,105 @@
+.header {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 176px;
+  width: 600px;
+  border-right: 2px solid rgb(62, 65, 68);
+  border-bottom: 2px solid rgb(62, 65, 68);
+  border-left: 1px solid rgb(62, 65, 68);
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 100;
+  transition: left 0.5s ease;
+}
+
+@media (min-width: 900px) {
+  .header {
+    left: 201px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .header {
+    left: 76px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    left: 101px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .header {
+    left: 241px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header {
+    left: 351px;
+  }
+}
+@media (min-width: 1650px) {
+  .header {
+    left: 451px;
+  }
+}
+
+@media (min-width: 1750px) {
+  .header {
+    left: 551px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .header {
+    left: 651px;
+  }
+}
+
+.header-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  position: relative;
+}
+
+.header-button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.15s;
+  opacity: 0.5;
+}
+
+
+.header-button:hover {
+  background-color: rgb(25, 25, 25);
+}
+
+.header-button-bottom-line {
+  position: absolute;
+  background-color: rgb(29, 155, 240);
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  bottom: 0;
+  opacity: 0;
+}
+
+.header-button:focus,
+.header-button:focus + .header-button-bottom-line {
+  opacity: 1;
+}

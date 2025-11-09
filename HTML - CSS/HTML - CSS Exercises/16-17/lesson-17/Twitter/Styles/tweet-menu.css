@@ -1,0 +1,124 @@
+.tweet-menu{
+  display: flex;
+  background-color: black;
+  width: 600px;
+  border-right: 2px solid rgb(62, 65, 68);
+  border-bottom: 2px solid rgb(62, 65, 68);
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.tweet-menu-top {
+  display: flex;
+  padding: 15px 15px;
+}
+
+.tweet-menu-profile-picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.tweet-menu-profile-picture-container:hover {
+  opacity: 0.9;
+}
+
+.tweet-menu-profile-picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.tweet-textbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweet-textbox {
+  background-color: black;
+  border: none;
+  color: rgb(231, 233, 234);
+  font-size: 20px;
+}
+
+.tweet-menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 15px;
+}
+
+.tweet-menu-bottom-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.tweet-menu-bottom-icon {
+  height: 20px;
+}
+
+.location-icon-container {
+  opacity: 0.5;
+}
+
+.tweet-menu-bottom-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  position: relative;
+}
+
+.tweet-menu-tooltip {
+  position: absolute;
+  display: flex;
+  background-color: rgba(134, 157, 179, 0.5);
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 2px;
+  z-index: 300;
+  opacity: 0;
+  transition-delay: 0.5s;
+  pointer-events: none;
+  bottom: -25px;
+  white-space: nowrap;
+}
+
+.tweet-menu-bottom-icon-container:hover .tweet-menu-tooltip {
+  opacity: 1;
+}
+
+
+
+.tweet-menu-bottom-icon-container:hover {
+  background-color: rgba(29, 155, 240, 0.15);
+}
+
+.post-button {
+  background-color: white;
+  border: none;
+  padding: 7.5px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.post-button:active,
+.location-icon-container:active {
+  opacity: 1;
+}

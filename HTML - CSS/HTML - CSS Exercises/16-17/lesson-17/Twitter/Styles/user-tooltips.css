@@ -1,0 +1,109 @@
+.user-tooltip {
+  position: absolute;
+  flex-direction: column;
+  z-index: 400;
+  background-color: black;
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 25px;
+  pointer-events: none;
+  width: 325px;
+  opacity: 0;
+  transition-delay: 0.5s;
+}
+
+.user-tooltip-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-tooltip-profile-picture-container {
+  width: 75px;
+  height: 75px;
+}
+
+.user-tooltip-profile-picture {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.square-profile-picture-tooltip {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.user-tooltip-follow-button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+
+.user-tooltip-username {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: -5px;
+  line-height: 30px;
+}
+
+.verified-icon-container-user-tooltip {
+  margin-left: 5px;
+}
+
+.user-tooltip-tag {
+  color: rgb(113, 118, 123);
+}
+
+.user-tooltip-bottom-top {
+  margin: 15px 0;
+}
+
+.user-tooltip-description {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: middle;
+}
+
+.user-tooltip-bottom-bottom {
+  display: flex;
+  column-gap: 20px;
+}
+
+.user-tooltip-count {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.user-tooltip-count-category {
+  color: rgb(113, 118, 123);
+  font-size: 18px;
+}
+
+.poster-profile-picture-container:hover .user-tooltip,
+.who-to-follow-user-picture-container:hover .user-tooltip {
+  opacity: 1;
+}
+
+.user-tooltip-description-special-line {
+  color: rgb(29, 155, 240);
+  cursor: pointer;
+}
+
+.user-tooltip-description-special-line:hover {
+  text-decoration: underline rgb(29, 155, 240);
+}
+
+.user-tooltip-following:hover,
+.user-tooltip-followers:hover {
+  text-decoration: underline white;
+}

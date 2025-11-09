@@ -1,0 +1,57 @@
+body {
+  font-family: Vazirmatn, Roboto, Arial;
+  padding-left: 169px;
+  padding-top: 53px;
+  background-color: black;
+  margin-bottom: 0;
+  transition: padding-left 0.5s ease;
+}
+
+@media (min-width: 900px) {
+  body {
+    padding-left: 194px;
+  }
+}
+
+
+@media (min-width: 1020px) {
+  body {
+    padding-left: 69px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-left: 94px;
+  }
+}
+
+@media (min-width: 1350px) {
+  body {
+    padding-left: 234px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body {
+    padding-left: 344px;
+  }
+}
+
+@media (min-width: 1650px) {
+  body {
+    padding-left: 444px;
+  }
+}
+
+@media (min-width: 1750px) {
+  body {
+    padding-left: 544px;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    padding-left: 644px;
+  }
+}
