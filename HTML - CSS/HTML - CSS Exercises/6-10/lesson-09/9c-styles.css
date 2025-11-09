@@ -1,0 +1,17 @@
+div {
+  font-family: Arial;
+  border: solid;
+  border-color: rgb(150, 150, 150);
+  border-width: 1px;
+  width: 300px;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}

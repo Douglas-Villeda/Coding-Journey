@@ -1,0 +1,15 @@
+.message {
+  width: 200px;
+}
+
+.yes-button,
+.no-button,
+.message {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yes-button,
+.no-button {
+cursor: pointer;
+}
