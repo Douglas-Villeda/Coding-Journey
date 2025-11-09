@@ -1,0 +1,70 @@
+div {
+  font-family: Arial;
+}
+
+.whole-tweet {
+  display: flex;
+  flex-direction: column;
+  max-width: 425px
+}
+
+.upper-part {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.author {
+  margin-bottom: 5px;
+}
+
+.author-at {
+  color: rgb(111, 111, 111);
+}
+
+.tweet {
+  line-height: 20px;
+}
+
+.bottom-part {
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 60px;
+}
+
+.youtube-container {
+  display: flex;
+  align-items: center;
+}
+
+.video-preview {
+  background-color: rgb(220, 220, 220);
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.youtube-info {
+  flex: 1
+}
+
+.website-name {
+  color: rgb(111, 111, 111);
+  margin-bottom: 5px;
+}
+
+.video-title {
+  line-height: 22px;
+}
